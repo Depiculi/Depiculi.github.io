@@ -1,0 +1,44 @@
+.vantagens {
+  background: var(--cor--12);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  max-width: 100%;
+  padding: 120px 100px;
+  gap: 40px;
+  align-items: center;
+}
+
+.vantagens li img {
+  width: 32px;
+}
+
+.vantagens h2 {
+  margin-bottom: 60px;
+}
+
+.vantagens ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.vantagens h3,
+.vantagens img {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 800px) {
+  .vantagens {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding: 20px;
+  }
+
+  .vantagens h2 {
+    margin-bottom: 40px;
+  }
+
+  .vantagens ul {
+    padding: 20px;
+  }
+}
