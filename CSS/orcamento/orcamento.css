@@ -60,7 +60,7 @@
   grid-template-columns: auto 1fr auto;
   align-items: center;
   border: 1px solid var(--cor--10);
-  margin: 20px;
+  margin: 20px 0px;
 }
 
 .orcamento--produto label::before {
