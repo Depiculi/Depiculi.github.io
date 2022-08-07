@@ -1,6 +1,7 @@
 @import './global/global.css';
 @import './utilidades/tipografia.css';
 @import './utilidades/cores.css';
+@import './utilidades/animacao.css';
 
 @import './global/header.css';
 @import './global/footer.css';
@@ -28,7 +29,6 @@
 @import './seguros/vantagens.css';
 @import './seguros/perguntas.css';
 
-
 /* Contato */
 @import './contato/contato.css';
 @import './contato/lojas.css';
@@ -36,7 +36,5 @@
 /* Orçamento */
 @import './orcamento/orcamento.css';
 
-
 /* Termos */
 @import './termos/termos.css';
-
